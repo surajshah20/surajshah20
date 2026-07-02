@@ -64,14 +64,14 @@ Full-stack photobook platform enabling image uploads, custom layout creation, an
 ### 💹 PrimeTrade — Full-Stack Trading Platform
 Scalable REST API with JWT auth, RBAC, full CRUD backed by PostgreSQL, and a React dashboard with protected routes.  
 **Stack:** Node.js · Express · PostgreSQL · React · JWT  
-[GitHub →](https://github.com/surajshah20)
+[GitHub →](https://github.com/surajshah20/primetrade-backend)
 
 ---
 
 ### 🤖 AI-Solutions — AI Startup Platform
 Marketing and inquiry platform for an AI startup. Features service showcase, testimonials, contact form, and password-protected admin dashboard for inquiry analytics.  
 **Stack:** Node.js · Express · PostgreSQL · EJS · Session Auth  
-[GitHub →](https://github.com/surajshah20)
+[GitHub →](https://github.com/surajshah20/ai-solutions)
 
 ---
 
@@ -92,7 +92,7 @@ Production-ready auth engine with bcrypt hashing, Google OAuth, session manageme
 ### 🌐 3D Portfolio Website
 Futuristic Himalayan-themed 3D portfolio built with React Three Fiber, Three.js, Framer Motion, and Next.js.  
 **Stack:** Next.js · TypeScript · Three.js · R3F · Tailwind CSS  
-[Live →](https://portfolio-ebon-six-74.vercel.app) · [GitHub →](https://github.com/surajshah20/portfolio)
+[Live →](https://explorehimalaya.vercel.app) · [GitHub →](https://github.com/surajshah20/portfolio)
 
 ---
 
