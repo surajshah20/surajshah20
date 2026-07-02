@@ -78,7 +78,7 @@ Marketing and inquiry platform for an AI startup. Features service showcase, tes
 ### 🏔️ ExploreHimalaya — Trekking Booking Platform
 Full-stack trekking platform with trek booking, destination pages, user dashboard, and payment integration.  
 **Stack:** React · Node.js · Express · PostgreSQL  
-[GitHub →](https://github.com/surajshah20)
+[GitHub →](https://github.com/surajshah20/explorehimalaya)
 
 ---
 
