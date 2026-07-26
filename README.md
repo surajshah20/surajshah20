@@ -78,7 +78,7 @@ Marketing and inquiry platform for an AI startup. Features service showcase, tes
 ### 🏔️ ExploreHimalaya — Trekking Booking Platform
 Full-stack trekking platform with trek booking, destination pages, user dashboard, and payment integration.  
 **Stack:** React · Node.js · Express · PostgreSQL  
-[GitHub →](https://github.com/surajshah20/explorehimalaya)
+[Live →](https://explorehimalaya.vercel.app) · [GitHub →](https://github.com/surajshah20/explorehimalaya)
 
 ---
 
@@ -92,7 +92,7 @@ Production-ready auth engine with bcrypt hashing, Google OAuth, session manageme
 ### 🌐 3D Portfolio Website
 Futuristic Himalayan-themed 3D portfolio built with React Three Fiber, Three.js, Framer Motion, and Next.js.  
 **Stack:** Next.js · TypeScript · Three.js · R3F · Tailwind CSS  
-[Live →](https://explorehimalaya.vercel.app) · [GitHub →](https://github.com/surajshah20/portfolio)
+[Live →](https://portfolio-ebon-six-74.vercel.app) · [GitHub →](https://github.com/surajshah20/portfolio)
 
 ---
 
