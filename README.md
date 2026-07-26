@@ -54,10 +54,24 @@
 
 # 🚀 Featured Projects
 
-### 📚 BlushBook — Photobook Web Application *(In Progress)*
-Full-stack photobook platform enabling image uploads, custom layout creation, and photobook generation.  
-**Stack:** React · Node.js · Express · PostgreSQL  
-[GitHub →](https://github.com/surajshah20/travel-photo-book)
+### 📚 BlushBook — AI Photobook Platform *(In Development)*
+
+A production-ready full-stack SaaS platform that enables users to create personalized printed photobooks using AI-assisted layouts and a drag-and-drop editor.
+
+**Key Features**
+- AI-generated photobooks
+- Drag-and-drop editor
+- Google OAuth authentication
+- Secure REST API
+- PostgreSQL database
+- Responsive design
+- Order management
+
+**Tech Stack**
+React · Node.js · Express · PostgreSQL · Cloudinary
+
+🔒 Source Code: Private Repository
+🚧 Launching Soon
 
 ---
 
