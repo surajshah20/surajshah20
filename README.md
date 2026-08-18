@@ -5,27 +5,25 @@
   Hi, I'm <strong>Suraj Kumar Sah</strong>
 </h1>
 
-<h3>🚀 Full-Stack Developer | Node.js · React · PostgreSQL | BSc IT Final Year | Nepal 🇳🇵</h3>
+<h3>🚀 Full-Stack Developer & QA Engineer | Node.js · React · PostgreSQL | BSc IT Final Year | Nepal 🇳🇵</h3>
 
 <div align="left">
   <img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" />
 
   <p>
     Final-year BSc IT student at ISMT College (University of Sunderland) passionate about
-    building real-world, production-ready web applications. I focus on secure authentication,
-    clean REST APIs, and interfaces that feel as solid as they look.
+    building, testing, and shipping robust, production-ready web applications. I focus on clean REST APIs, secure authentication systems, and meticulous testing/debugging workflows.
   </p>
 
   <p>
-    Currently building <strong>BlushBook</strong> — a full-stack photobook platform that lets
-    users upload photos, arrange them into custom layouts, and create beautiful keepsakes.
+    Currently building and QA testing <strong>BlushBook</strong> — a full-stack photobook platform featuring a canvas-based drag-and-drop editor, async preflight print validation, and end-to-end order processing.
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/🌍_Kathmandu,_Nepal-1e1e2e?style=for-the-badge" />
     <img src="https://img.shields.io/badge/🎓_BSc_IT_Final_Year-1e1e2e?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/💼_Open_to_Internships-1e1e2e?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/🚀_Building_BlushBook-1e1e2e?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/💼_Available_for_Internships-1e1e2e?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🚀_Testing_BlushBook_MVP-1e1e2e?style=for-the-badge" />
   </p>
 
   <h3>🌐 Connect With Me</h3>
@@ -52,72 +50,50 @@
 
 ---
 
-# 🚀 Featured Projects
+# 🚀 Featured Projects & Testing Highlights
 
-### 📚 BlushBook — AI Photobook Platform *(In Development)*
+### 📚 BlushBook — Full-Stack Photobook SaaS
+An end-to-end e-commerce platform that enables users to create personalized printed photobooks using dynamic layout configurations, canvas manipulation, and automated preflight checks.
 
-A production-ready full-stack SaaS platform that enables users to create personalized printed photobooks using AI-assisted layouts and a drag-and-drop editor.
-
-**Key Features**
-- AI-generated photobooks
-- Drag-and-drop editor
-- Google OAuth authentication
-- Secure REST API
-- PostgreSQL database
-- Responsive design
-- Order management
-
-**Tech Stack**
-React · Node.js · Express · PostgreSQL · Cloudinary
-
-🔒 Source Code: Private Repository
-🚧 Launching Soon
+* **Development:** Engineered custom canvas store slices, multi-page data schemas in PostgreSQL, and image-upload pipelines via Cloudinary.
+* **QA & Debugging:** Logged and fixed severe UI/state bottlenecks across nested spread configurations, tracing edge cases like stale state closure bugs and text-rendering inheritance crashes.
+* **Tech Stack:** React · Node.js · Express · PostgreSQL · Konva.js · Cloudinary  
+👉 [getblushbook.com](https://getblushbook.com)
 
 ---
 
 ### 💹 PrimeTrade — Full-Stack Trading Platform
-Scalable REST API with JWT auth, RBAC, full CRUD backed by PostgreSQL, and a React dashboard with protected routes.  
-**Stack:** Node.js · Express · PostgreSQL · React · JWT  
-[GitHub →](https://github.com/surajshah20/primetrade-backend)
-
----
-
-### 🤖 AI-Solutions — AI Startup Platform
-Marketing and inquiry platform for an AI startup. Features service showcase, testimonials, contact form, and password-protected admin dashboard for inquiry analytics.  
-**Stack:** Node.js · Express · PostgreSQL · EJS · Session Auth  
-[GitHub →](https://github.com/surajshah20/ai-solutions)
+Scalable REST API with JWT authentication, role-based access control, full CRUD operations, and a protected React dashboard view.  
+* **QA & Debugging:** Heavily validated endpoint response payloads and expected schema behavior via Postman; tested edge-case authentication tokens against protected router endpoints.  
+* **Tech Stack:** Node.js · Express · PostgreSQL · React · JWT · Postman  
+👉 [GitHub Repository](https://github.com/surajshah20/primetrade-backend)
 
 ---
 
 ### 🏔️ ExploreHimalaya — Trekking Booking Platform
-Full-stack trekking platform with trek booking, destination pages, user dashboard, and payment integration.  
-**Stack:** React · Node.js · Express · PostgreSQL  
-[Live →](https://explorehimalaya.vercel.app) · [GitHub →](https://github.com/surajshah20/explorehimalaya)
+Full-stack application featuring dynamic tour catalog filters, location details, custom user dashboards, and simulation checkout handling.  
+* **QA & Debugging:** Conducted manual functional and regression testing on core user booking flows across various device viewpoints prior to deployment.  
+* **Tech Stack:** React · Node.js · Express · PostgreSQL  
+👉 [Live Link](https://explorehimalaya.vercel.app) · [GitHub Repository](https://github.com/surajshah20/explorehimalaya)
 
 ---
 
 ### 🔐 Secure Authentication System
-Production-ready auth engine with bcrypt hashing, Google OAuth, session management, and RBAC.  
-**Stack:** Node.js · Express · PostgreSQL · bcrypt · Passport.js  
-[GitHub →](https://github.com/surajshah20)
+Production-ready backend auth engine built with standard security practices.  
+* **QA & Debugging:** Audited session timeouts, token persistence, password hashing integrity via bcrypt, and third-party redirection constraints.  
+* **Tech Stack:** Node.js · Express · PostgreSQL · bcrypt · Passport.js  
+👉 [GitHub Profile](https://github.com/surajshah20)
 
 ---
 
-### 🌐 3D Portfolio Website
-Futuristic Himalayan-themed 3D portfolio built with React Three Fiber, Three.js, Framer Motion, and Next.js.  
-**Stack:** Next.js · TypeScript · Three.js · R3F · Tailwind CSS  
-[Live →](https://portfolio-ebon-six-74.vercel.app) · [GitHub →](https://github.com/surajshah20/portfolio)
-
----
-
-# 🛠️ Tech Stack
+# 🛠️ Tech Stack & Testing Tools
 
 <p align="center">
 <table>
 <tr>
 <td width="50%" align="center">
 
-### 💻 Languages
+### 💻 Languages & Testing
 <img src="https://skillicons.dev/icons?i=html,css,js,ts" />
 
 </td>
@@ -131,13 +107,13 @@ Futuristic Himalayan-themed 3D portfolio built with React Three Fiber, Three.js,
 <tr>
 <td width="50%" align="center">
 
-### 🗄️ Databases
+### 🗄️ Databases & Validation
 <img src="https://skillicons.dev/icons?i=postgresql,mongodb,mysql" />
 
 </td>
 <td width="50%" align="center">
 
-### 🧰 Tools
+### 🧰 Workflow & Testing Tools
 <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma" />
 
 </td>
@@ -172,26 +148,25 @@ Futuristic Himalayan-themed 3D portfolio built with React Three Fiber, Three.js,
 
 # 🎯 2026 Goals
 
-* 🔲 Ship BlushBook MVP
-* 🔲 Secure a Software Engineering Internship
-* 🔲 Contribute to Open Source
-* 🔲 Master System Design Fundamentals
-* 🔲 Learn NestJS in production
-* 🔲 Build products that solve real problems
+* 🔲 Successfully transition into a professional QA / Engineering Internship
+* 🔲 Ship BlushBook MVP to public production
+* 🔲 Master Automated Testing frameworks (Cypress / Playwright)
+* 🔲 Dive deeper into NestJS architecture and Advanced PostgreSQL optimization
+* 🔲 Contribute to open-source software tools
 
 ---
 
 # 📖 Currently Learning
 
 * NestJS & Advanced Backend Patterns
-* PostgreSQL Optimization
-* System Design
-* Three.js & 3D Web Development
+* Automated QA Testing Tools (Cypress/Selenium)
+* Core System Design Fundamentals
+* PostgreSQL Query Optimization
 
 ---
 
 <div align="center">
 
-### ⭐ Building in Public · Coding from Kathmandu · Creating Real Products 🇳🇵
+### ⭐ Quality Code · Comprehensive Testing · Building from Kathmandu 🇳🇵
 
 </div>
