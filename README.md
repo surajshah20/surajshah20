@@ -70,6 +70,15 @@ Scalable REST API with JWT authentication, role-based access control, full CRUD 
 
 ---
 
+### 🤖 AI-Solutions — AI Startup Platform & Custom CMS
+Full-stack academic capstone project developed for a simulated AI startup, managing the complete software development lifecycle from requirements gathering to deployment.
+* **Development:** Architected a password-protected admin dashboard with session management, full CRUD functionality, and a backend pipeline to process lead-generation forms.
+* **QA & Debugging:** Validated system reliability and backend data flow by executing and documenting 58 strict black-box test cases across all public forms and protected API routes.
+* **Tech Stack:** Node.js · Express · PostgreSQL · EJS · bcrypt  
+👉 [GitHub Repository](https://github.com/surajshah20/ai-solutions)
+
+---
+
 ### 🏔️ ExploreHimalaya — Trekking Booking Platform
 Full-stack application featuring dynamic tour catalog filters, location details, custom user dashboards, and simulation checkout handling.  
 * **QA & Debugging:** Conducted manual functional and regression testing on core user booking flows across various device viewpoints prior to deployment.  
@@ -78,12 +87,12 @@ Full-stack application featuring dynamic tour catalog filters, location details,
 
 ---
 
-### 🔐 Secure Authentication System
-Production-ready backend auth engine built with standard security practices.  
-* **QA & Debugging:** Audited session timeouts, token persistence, password hashing integrity via bcrypt, and third-party redirection constraints.  
-* **Tech Stack:** Node.js · Express · PostgreSQL · bcrypt · Passport.js  
-👉 [GitHub Profile](https://github.com/surajshah20)
-
+### 💰 Ledger — Finance Dashboard
+A responsive, interactive personal finance dashboard built without frameworks as a Frontend Developer Internship assignment.
+* **Development:** Engineered a centralized state management system in Vanilla JS with localStorage persistence, dynamic role-based access control (Admin/Viewer), and dark/light mode functionality.
+* **Data Visualization:** Integrated Chart.js to render real-time balance trends and expense breakdowns that automatically sync with DOM mutations and CRUD operations.
+* **Tech Stack:** Vanilla JavaScript (ES6+) · HTML5 · CSS3 · Chart.js  
+👉 [Live Demo](https://finance-dashboardui.netlify.app/) · [GitHub Repository](https://github.com/surajshah20/finance-dashboard)
 ---
 
 # 🛠️ Tech Stack & Testing Tools
