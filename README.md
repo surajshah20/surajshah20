@@ -167,7 +167,7 @@ A responsive, interactive personal finance dashboard built without frameworks.
 # 📖 Currently Learning
 
 * NestJS & Advanced Backend Patterns
-* Automated QA Testing Tools (Cypress/Selenium)
+* Automated QA Testing Tools (Playwright)
 * Core System Design Fundamentals
 * PostgreSQL Query Optimization
 
