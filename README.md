@@ -11,7 +11,7 @@
   <img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" />
 
   <p>
-    Frontend Developer Intern and recent BSc IT graduate (exams completed) from ISMT College. Passionate about building, testing, and shipping robust, production-ready web applications. I focus on clean REST APIs, secure authentication systems, and meticulous testing/debugging workflows.
+    Recent BSc IT graduate (exams completed) from ISMT College. Passionate about building, testing, and shipping robust, production-ready web applications. I focus on clean REST APIs, secure authentication systems, and meticulous testing/debugging workflows.
   </p>
 
   <p>
@@ -21,7 +21,6 @@
   <p>
     <img src="https://img.shields.io/badge/🌍_Kathmandu,_Nepal-1e1e2e?style=for-the-badge" />
     <img src="https://img.shields.io/badge/💼_Available_for_Full--Time_Roles-1e1e2e?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/💻_Frontend_Intern_@_Zorvyn_FinTech-1e1e2e?style=for-the-badge" />
     <img src="https://img.shields.io/badge/🚀_Testing_BlushBook_MVP-1e1e2e?style=for-the-badge" />
   </p>
 
@@ -158,7 +157,7 @@ A responsive, interactive personal finance dashboard built without frameworks.
 
 * 🔲 Successfully transition into a full-time Frontend / Full-Stack engineering role
 * 🔲 Ship BlushBook MVP to public production
-* 🔲 Master Automated Testing frameworks (Cypress / Playwright)
+* 🔲 Master Automated Testing frameworks (Playwright / Cypress)
 * 🔲 Dive deeper into NestJS architecture and Advanced PostgreSQL optimization
 * 🔲 Contribute to open-source software tools
 
@@ -167,7 +166,7 @@ A responsive, interactive personal finance dashboard built without frameworks.
 # 📖 Currently Learning
 
 * NestJS & Advanced Backend Patterns
-* Automated QA Testing Tools (Playwright)
+* Automated QA Testing Tools (Playwright / Cypress)
 * Core System Design Fundamentals
 * PostgreSQL Query Optimization
 
