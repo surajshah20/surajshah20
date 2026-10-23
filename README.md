@@ -5,23 +5,23 @@
   Hi, I'm <strong>Suraj Kumar Sah</strong>
 </h1>
 
-<h3>🚀 Full-Stack Developer & QA Engineer | Node.js · React · PostgreSQL | Nepal 🇳🇵</h3>
+<h3>🚀 Full-Stack Developer | Node.js · React · PostgreSQL · Zustand | Nepal 🇳🇵</h3>
 
 <div align="left">
   <img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" />
 
   <p>
-    Recent BSc IT graduate (exams completed) from ISMT College. Passionate about building, testing, and shipping robust, production-ready web applications. I focus on clean REST APIs, secure authentication systems, and meticulous testing/debugging workflows.
+    BSc (Hons) IT graduate from ISMT College (Affiliated with the University of Sunderland, UK) with all examinations completed and immediate full-time availability.
   </p>
 
   <p>
-    Currently building and QA testing <strong>BlushBook</strong>, a full-stack photobook platform featuring a canvas-based drag-and-drop editor, async preflight print validation, and end-to-end order processing.
+    Passionate about architecting, testing, and shipping robust, production-ready web applications. Creator of <strong>BlushBook</strong>, a commercial web-to-print SaaS platform featuring an interactive HTML5 Konva.js canvas editor, Zustand state management, automated preflight print validation, and end-to-end e-commerce order processing.
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/🌍_Kathmandu,_Nepal-1e1e2e?style=for-the-badge" />
     <img src="https://img.shields.io/badge/💼_Available_for_Full--Time_Roles-1e1e2e?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/🚀_Testing_BlushBook_MVP-1e1e2e?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🚀_Shipping_BlushBook_Live-1e1e2e?style=for-the-badge" />
   </p>
 
   <h3>🌐 Connect With Me</h3>
@@ -48,22 +48,24 @@
 
 ---
 
-# 🚀 Featured Projects & Testing Highlights
+# 🚀 Featured Projects & Engineering Highlights
 
 ### 📚 BlushBook: Full-Stack Photobook SaaS
-An end-to-end e-commerce platform that enables users to create personalized printed photobooks using dynamic layout configurations, canvas manipulation, and automated preflight checks.
+A live, commercial web-to-print platform allowing customers across Nepal to design, preview, and purchase custom physical photobooks. Processed **30+ custom print orders** with automated eSewa and COD payment workflows.
 
-* **Development:** Engineered custom canvas store slices, multi-page data schemas in PostgreSQL, and image-upload pipelines via Cloudinary.
-* **QA & Debugging:** Logged and fixed severe UI/state bottlenecks across nested spread configurations, tracing edge cases like stale state closure bugs and text-rendering inheritance crashes.
-* **Tech Stack:** React · Node.js · Express · PostgreSQL · Konva.js · Cloudinary  
+* **Canvas Architecture:** Engineered an interactive HTML5 spread canvas using **Konva.js** supporting element transformations, dynamic snapping alignment guides, and pan/zoom cropping calculations.
+* **Commercial Print Engine:** Built an in-browser PDF compilation pipeline using **jsPDF** that generates 300 DPI high-resolution CMYK production files with dynamic spine width and bleed margin math.
+* **State & Performance:** Architected centralized client state using **Zustand** with multi-action undo/redo history snapshots and eliminated 15s PostgreSQL cold-start delays down to **0ms** using in-memory route caching and bundled static snapshots.
+* **Tech Stack:** React · Node.js · Express · PostgreSQL · Konva.js · Zustand · Cloudinary · jsPDF  
 👉 [getblushbook.com](https://getblushbook.com)
 
 ---
 
 ### 💹 PrimeTrade: Full-Stack Trading Platform
-Scalable REST API with JWT authentication, role-based access control, full CRUD operations, and a protected React dashboard view.  
-* **QA & Debugging:** Heavily validated endpoint response payloads and expected schema behavior via Postman; tested edge-case authentication tokens against protected router endpoints.  
-* **Tech Stack:** Node.js · Express · PostgreSQL · React · JWT · Postman  
+Scalable REST API with JWT authentication, role-based access control (RBAC), and a protected React dashboard view.  
+* **Security & Auth:** Implemented token signing, password hashing via bcrypt, and secure middleware guards across protected trading routes.
+* **Validation:** Validated endpoint response schemas and edge-case token handling via Postman.  
+* **Tech Stack:** React · Node.js · Express · PostgreSQL · JWT · Postman  
 👉 [GitHub Repository](https://github.com/surajshah20/primetrade-backend)
 
 ---
@@ -71,37 +73,38 @@ Scalable REST API with JWT authentication, role-based access control, full CRUD 
 ### 🤖 AI-Solutions: AI Startup Platform & Custom CMS
 Full-stack academic capstone project developed for a simulated AI startup, managing the complete software development lifecycle from requirements gathering to deployment.
 * **Development:** Architected a password-protected admin dashboard with session management, full CRUD functionality, and a backend pipeline to process lead-generation forms.
-* **QA & Debugging:** Validated system reliability and backend data flow by executing and documenting 58 strict black-box test cases across all public forms and protected API routes.
+* **System Testing:** Validated system reliability and backend data integrity through 58 documented black-box test cases across public forms and protected API endpoints.
 * **Tech Stack:** Node.js · Express · PostgreSQL · EJS · bcrypt  
 👉 [GitHub Repository](https://github.com/surajshah20/ai-solutions)
 
 ---
 
 ### 🏔️ ExploreHimalaya: Trekking Booking Platform
-Full-stack application featuring dynamic tour catalog filters, location details, custom user dashboards, and simulation checkout handling.  
-* **QA & Debugging:** Conducted manual functional and regression testing on core user booking flows across various device viewpoints prior to deployment.  
+Full-stack application featuring dynamic tour catalog filters, location details, custom user dashboards, and checkout simulation.  
+* **Engineering:** Built modular RESTful booking endpoints, PostgreSQL relational schemas, and responsive client-side routing.
 * **Tech Stack:** React · Node.js · Express · PostgreSQL  
-👉 [Live Link](https://explorehimalaya.vercel.app) · [GitHub Repository](https://github.com/surajshah20/explorehimalaya)
+👉 [Live Demo](https://explorehimalaya.vercel.app) · [GitHub Repository](https://github.com/surajshah20/explorehimalaya)
 
 ---
 
-### 💰 Ledger: Finance Dashboard
-A responsive, interactive personal finance dashboard built without frameworks.
-* **Development:** Engineered a centralized state management system in Vanilla JS with localStorage persistence, dynamic role-based access control (Admin/Viewer), and dark/light mode functionality.
-* **Data Visualization:** Integrated Chart.js to render real-time balance trends and expense breakdowns that automatically sync with DOM mutations and CRUD operations.
+### 💰 Ledger: Personal Finance Dashboard
+A responsive, framework-free personal finance dashboard with real-time data visualization.
+* **Vanilla Architecture:** Engineered a centralized state management engine using Vanilla JS (ES6+) and localStorage persistence without external dependencies.
+* **Data Visualization:** Integrated Chart.js to render dynamic balance trends and expense breakdowns synchronized with transaction CRUD operations.
 * **Tech Stack:** Vanilla JavaScript (ES6+) · HTML5 · CSS3 · Chart.js  
 👉 [Live Demo](https://finance-dashboardui.netlify.app/) · [GitHub Repository](https://github.com/surajshah20/finance-dashboard)
+
 ---
 
-# 🛠️ Tech Stack & Testing Tools
+# 🛠️ Tech Stack & Tools
 
 <p align="center">
 <table>
 <tr>
 <td width="50%" align="center">
 
-### 💻 Languages & Testing
-<img src="https://skillicons.dev/icons?i=html,css,js,ts" />
+### 💻 Languages & Core
+<img src="https://skillicons.dev/icons?i=js,ts,html,css" />
 
 </td>
 <td width="50%" align="center">
@@ -114,13 +117,13 @@ A responsive, interactive personal finance dashboard built without frameworks.
 <tr>
 <td width="50%" align="center">
 
-### 🗄️ Databases & Validation
+### 🗄️ Databases & Cloud
 <img src="https://skillicons.dev/icons?i=postgresql,mongodb,mysql" />
 
 </td>
 <td width="50%" align="center">
 
-### 🧰 Workflow & Testing Tools
+### 🧰 Workflow & Dev Tools
 <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma" />
 
 </td>
@@ -155,25 +158,25 @@ A responsive, interactive personal finance dashboard built without frameworks.
 
 # 🎯 2026 Goals
 
-* 🔲 Successfully transition into a full-time Frontend / Full-Stack engineering role
-* 🔲 Ship BlushBook MVP to public production
+* ✅ Shipped BlushBook to live production (30+ physical photobook orders delivered)
+* 🔲 Secure a full-time Full-Stack / Software Engineering role
 * 🔲 Master Automated Testing frameworks (Playwright / Cypress)
-* 🔲 Dive deeper into NestJS architecture and Advanced PostgreSQL optimization
-* 🔲 Contribute to open-source software tools
+* 🔲 Deep dive into NestJS architecture and Advanced PostgreSQL query tuning
+* 🔲 Contribute to open-source developer tooling
 
 ---
 
-# 📖 Currently Learning
+# 📖 Currently Exploring
 
-* NestJS & Advanced Backend Patterns
-* Automated QA Testing Tools (Playwright / Cypress)
-* Core System Design Fundamentals
-* PostgreSQL Query Optimization
+* NestJS & Enterprise Backend Design Patterns
+* Automated End-to-End Testing (Playwright)
+* Scalable System Design Fundamentals
+* PostgreSQL Performance Tuning & Indexing Strategies
 
 ---
 
 <div align="center">
 
-### ⭐ Quality Code · Comprehensive Testing · Building from Kathmandu 🇳🇵
+### ⭐ Clean Architecture · Production Reliability · Building from Kathmandu 🇳🇵
 
 </div>
