@@ -5,23 +5,27 @@
   Hi, I'm <strong>Suraj Kumar Sah</strong>
 </h1>
 
-<h3>🚀 Full-Stack Developer | Node.js · React · PostgreSQL · Zustand | Nepal 🇳🇵</h3>
+<h3>🚀 Full-Stack Software Engineer | React · Node.js · PostgreSQL · Zustand · Gemini AI | Nepal 🇳🇵</h3>
 
 <div align="left">
   <img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" />
 
   <p>
-    BSc (Hons) IT graduate from ISMT College (Affiliated with the University of Sunderland, UK) with all examinations completed and immediate full-time availability.
+    <strong>BSc (Hons) Computer Systems Engineering</strong> graduate from <strong>ISMT College</strong> (Affiliated with the <strong>University of Sunderland, UK</strong>) with final-year results published and immediate full-time availability for junior software engineering roles.
   </p>
 
   <p>
-    Passionate about architecting, testing, and shipping robust, production-ready web applications. Creator of <strong>BlushBook</strong>, a commercial web-to-print SaaS platform featuring an interactive HTML5 Konva.js canvas editor, Zustand state management, automated preflight print validation, and end-to-end e-commerce order processing.
+    Full-Stack Software Engineer with hands-on experience architecting and shipping production React, Node.js, and PostgreSQL web platforms. Creator of <strong>BlushBook</strong>, a live commercial web-to-print SaaS with 30+ physical print orders fulfilled across Nepal, and <strong>DevGuard AI</strong>, an autonomous LLM-powered security code-review agent.
+  </p>
+
+  <p>
+    Strong foundations in deterministic static analysis (ESLint API / AST), complex client-side canvas state (Konva.js / Zustand), high-DPI client-side print pipelines (jsPDF 300 DPI), and resilient REST API design.
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/🌍_Kathmandu,_Nepal-1e1e2e?style=for-the-badge" />
     <img src="https://img.shields.io/badge/💼_Available_for_Full--Time_Roles-1e1e2e?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/🚀_Shipping_BlushBook_Live-1e1e2e?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🚀_Shipping_Production_SaaS-1e1e2e?style=for-the-badge" />
   </p>
 
   <h3>🌐 Connect With Me</h3>
@@ -36,7 +40,7 @@
     <a href="mailto:suraj27227@gmail.com">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
-    <a href="https://portfolio-ebon-six-74.vercel.app">
+    <a href="https://surajkumarsah.dev">
       <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
     </a>
   </p>
@@ -50,67 +54,87 @@
 
 # 🚀 Featured Projects & Engineering Highlights
 
-### 📚 BlushBook: Full-Stack Photobook SaaS
-A live, commercial web-to-print platform allowing customers across Nepal to design, preview, and purchase custom physical photobooks. Processed **30+ custom print orders** with automated eSewa and COD payment workflows.
+### 🛡️ DevGuard AI: Autonomous Code Review & Security Analysis Agent
+A full-stack security review agent combining deterministic AST static analysis with Google Gemini LLMs to detect vulnerabilities, explain root causes, and propose automated git patch fixes.
 
-* **Canvas Architecture:** Engineered an interactive HTML5 spread canvas using **Konva.js** supporting element transformations, dynamic snapping alignment guides, and pan/zoom cropping calculations.
-* **Commercial Print Engine:** Built an in-browser PDF compilation pipeline using **jsPDF** that generates 300 DPI high-resolution CMYK production files with dynamic spine width and bleed margin math.
-* **State & Performance:** Architected centralized client state using **Zustand** with multi-action undo/redo history snapshots and eliminated 15s PostgreSQL cold-start delays down to **0ms** using in-memory route caching and bundled static snapshots.
+* **Hybrid Analysis Engine:** Combined deterministic AST static analysis with Google Gemini LLMs to uncover security vulnerabilities, evaluate root causes, and suggest actionable remediation.
+* **In-Memory GitHub Inspection:** Built an in-memory repository scanner over the GitHub REST API bounding file size/counts, redacting credentials (PATs, AWS keys, secret tokens), and mitigating prompt injection through strict isolation.
+* **OWASP & Static Rules:** Built a custom vulnerability detector covering OWASP Top 10 and CWEs (command injection, SQLi, eval, path traversal, weak crypto) alongside an in-memory ESLint engine with zero disk writes.
+* **Automated Patch Delivery:** Generates unified git diff patches (`.patch`) enabling instant application via `git apply`.
+* **CI & Automated Tests:** Dark-theme dashboard with severity distribution bars, filtering, and markdown reports, backed by **44 automated tests** and a GitHub Actions CI workflow.
+* **Tech Stack:** Node.js · Express · React · Vite · Google Gemini API · ESLint API · Zod · Octokit  
+👉 [Live Demo](https://devguardai-gqng.onrender.com)
+
+---
+
+### 📚 BlushBook: Commercial Web-to-Print Photobook SaaS
+A live production web-to-print platform enabling customers across Nepal to design, customize, and order physical photobooks, fulfilling **30+ custom print orders**.
+
+* **Canvas Architecture:** Architected an interactive HTML5 Konva.js canvas engine with real-time element transformations, photo pan/zoom cropping geometry, and dynamic snap-alignment guides.
+* **300 DPI Print Pipeline:** Built an in-browser PDF compilation pipeline using **jsPDF** that generates 300 DPI production-ready PDFs with automated bleed margins and dynamic spine-width calculations.
+* **State & Draft Recovery:** Implemented **Zustand** state management with multi-step undo/redo history snapshots and automated draft recovery to prevent data loss in long design sessions.
+* **Cold-Start Elimination:** Optimized initial template loading from **~15s to near-instant** by resolving PostgreSQL cold starts through in-memory route caching and pre-bundled static snapshots.
+* **Backend & RBAC:** Built REST APIs with role-based access control (Admin/User), PostgreSQL data management, and Cloudinary media pipelines.
 * **Tech Stack:** React · Node.js · Express · PostgreSQL · Konva.js · Zustand · Cloudinary · jsPDF  
 👉 [getblushbook.com](https://getblushbook.com)
 
 ---
 
-### 💹 PrimeTrade: Full-Stack Trading Platform
-Scalable REST API with JWT authentication, role-based access control (RBAC), and a protected React dashboard view.  
-* **Security & Auth:** Implemented token signing, password hashing via bcrypt, and secure middleware guards across protected trading routes.
-* **Validation:** Validated endpoint response schemas and edge-case token handling via Postman.  
-* **Tech Stack:** React · Node.js · Express · PostgreSQL · JWT · Postman  
-👉 [GitHub Repository](https://github.com/surajshah20/primetrade-backend)
+### 💰 Ledger: Finance & Expense Analytics Dashboard
+A responsive personal finance dashboard featuring balance analytics, transaction CRUD, simulated role-based access, and light/dark themes.
 
----
-
-### 🤖 AI-Solutions: AI Startup Platform & Custom CMS
-Full-stack academic capstone project developed for a simulated AI startup, managing the complete software development lifecycle from requirements gathering to deployment.
-* **Development:** Architected a password-protected admin dashboard with session management, full CRUD functionality, and a backend pipeline to process lead-generation forms.
-* **System Testing:** Validated system reliability and backend data integrity through 58 documented black-box test cases across public forms and protected API endpoints.
-* **Tech Stack:** Node.js · Express · PostgreSQL · EJS · bcrypt  
-👉 [GitHub Repository](https://github.com/surajshah20/ai-solutions)
-
----
-
-### 🏔️ ExploreHimalaya: Trekking Booking Platform
-Full-stack application featuring dynamic tour catalog filters, location details, custom user dashboards, and checkout simulation.  
-* **Engineering:** Built modular RESTful booking endpoints, PostgreSQL relational schemas, and responsive client-side routing.
-* **Tech Stack:** React · Node.js · Express · PostgreSQL  
-👉 [Live Demo](https://explorehimalaya.vercel.app) · [GitHub Repository](https://github.com/surajshah20/explorehimalaya)
-
----
-
-### 💰 Ledger: Personal Finance Dashboard
-A responsive, framework-free personal finance dashboard with real-time data visualization.
-* **Vanilla Architecture:** Engineered a centralized state management engine using Vanilla JS (ES6+) and localStorage persistence without external dependencies.
-* **Data Visualization:** Integrated Chart.js to render dynamic balance trends and expense breakdowns synchronized with transaction CRUD operations.
+* **Reactive State Engine:** Engineered a lightweight reactive state store in vanilla JS with localStorage, keeping UI and data in sync without a third-party framework.
+* **Data Visualization:** Integrated Chart.js to visualize cash-flow dynamics, spending distribution, and real-time balance trends.
 * **Tech Stack:** Vanilla JavaScript (ES6+) · HTML5 · CSS3 · Chart.js  
 👉 [Live Demo](https://finance-dashboardui.netlify.app/) · [GitHub Repository](https://github.com/surajshah20/finance-dashboard)
 
 ---
 
-# 🛠️ Tech Stack & Tools
+### 🏔️ ExploreHimalaya: Trekking Booking Platform
+End-to-end trekking booking application with destination pages, interactive booking workflows, and payment integration for multi-tier packages.
+
+* **Booking Workflows:** Destination browsing, itinerary selection, and multi-tier package reservation workflows.
+* **REST Architecture:** RESTful endpoints handling package details, user inquiries, and booking transactions backed by PostgreSQL.
+* **Tech Stack:** React · Node.js · Express · PostgreSQL · REST APIs  
+👉 [Live Demo](https://explorehimalaya.vercel.app) · [GitHub Repository](https://github.com/surajshah20/explorehimalaya)
+
+---
+
+### 💹 PrimeTrade: Full-Stack Trading Platform
+Trading platform backend and React dashboard with JWT authentication, role-based access control, and protected PostgreSQL-backed routes.
+
+* **Authentication & RBAC:** Secure token signing, bcrypt password encryption, and middleware guards safeguarding trader and admin operations.
+* **Transactional Reliability:** Protected RESTful endpoints backed by PostgreSQL with transactional integrity.
+* **Tech Stack:** React · Node.js · Express · PostgreSQL · JWT  
+👉 [GitHub Repository](https://github.com/surajshah20/primetrade-backend)
+
+---
+
+### 🤖 AI-Solutions: AI Startup Platform & CMS (Capstone)
+Full-stack academic capstone project featuring a custom content management system, bcrypt-secured admin dashboard, and an integrated AI assistant.
+
+* **Admin CMS:** Secure CMS with full CRUD capabilities, bcrypt password encryption, and session authentication.
+* **Rigorous Verification:** Validated system reliability and edge-case resilience through **58 documented black-box test cases**.
+* **Tech Stack:** Node.js · Express · PostgreSQL · EJS · bcrypt  
+👉 [GitHub Repository](https://github.com/surajshah20/ai-solutions)
+
+---
+
+# 🛠️ Tech Stack & Arsenal
 
 <p align="center">
 <table>
 <tr>
 <td width="50%" align="center">
 
-### 💻 Languages & Core
-<img src="https://skillicons.dev/icons?i=js,ts,html,css" />
+### 💻 Languages & Frontend
+<img src="https://skillicons.dev/icons?i=js,ts,react,vite,html,css,tailwind" />
 
 </td>
 <td width="50%" align="center">
 
-### ⚙️ Frameworks & Libraries
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,nextjs,tailwind" />
+### ⚙️ Backend & APIs
+<img src="https://skillicons.dev/icons?i=nodejs,express,nextjs" />
 
 </td>
 </tr>
@@ -118,13 +142,13 @@ A responsive, framework-free personal finance dashboard with real-time data visu
 <td width="50%" align="center">
 
 ### 🗄️ Databases & Cloud
-<img src="https://skillicons.dev/icons?i=postgresql,mongodb,mysql" />
+<img src="https://skillicons.dev/icons?i=postgresql,mongodb,vercel" />
 
 </td>
 <td width="50%" align="center">
 
-### 🧰 Workflow & Dev Tools
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma" />
+### 🧰 Testing, DevOps & Tools
+<img src="https://skillicons.dev/icons?i=githubactions,git,github,postman,figma" />
 
 </td>
 </tr>
@@ -156,22 +180,22 @@ A responsive, framework-free personal finance dashboard with real-time data visu
 
 ---
 
-# 🎯 2026 Goals
+# 🎯 2026 Goals & Milestones
 
-* ✅ Shipped BlushBook to live production (30+ physical photobook orders delivered)
-* 🔲 Secure a full-time Full-Stack / Software Engineering role
-* 🔲 Master Automated Testing frameworks (Playwright / Cypress)
-* 🔲 Deep dive into NestJS architecture and Advanced PostgreSQL query tuning
-* 🔲 Contribute to open-source developer tooling
+* ✅ Shipped **BlushBook** to live production (30+ physical photobook orders delivered across Nepal)
+* ✅ Architected & shipped **DevGuard AI** (Autonomous AST + Gemini LLM security code review agent)
+* 🔲 Secure a full-time **Full-Stack / Junior Software Engineering** role
+* 🔲 Deep dive into Automated E2E Testing (Playwright) & advanced CI/CD pipelines
+* 🔲 Advanced PostgreSQL query optimization, connection pooling & distributed systems
 
 ---
 
 # 📖 Currently Exploring
 
-* NestJS & Enterprise Backend Design Patterns
-* Automated End-to-End Testing (Playwright)
-* Scalable System Design Fundamentals
-* PostgreSQL Performance Tuning & Indexing Strategies
+* Automated End-to-End Testing & Regression Suites (Playwright)
+* Deterministic Static Analysis & AST Transformations
+* Enterprise Backend Architecture & Domain-Driven Design
+* PostgreSQL Performance Tuning, Indexing & Connection Pooling
 
 ---
 
