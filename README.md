@@ -5,7 +5,7 @@
   Hi, I'm <strong>Suraj Kumar Sah</strong>
 </h1>
 
-<h3>🚀 Full-Stack Software Engineer | React · Node.js · PostgreSQL · Zustand · Gemini AI | Nepal 🇳🇵</h3>
+<h3>🚀 Full-Stack Software Engineer | React · Node.js · PostgreSQL · TanStack Query · AI | Nepal 🇳🇵</h3>
 
 <div align="left">
   <img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" />
@@ -15,11 +15,11 @@
   </p>
 
   <p>
-    Full-Stack Software Engineer with hands-on experience architecting and shipping production React, Node.js, and PostgreSQL web platforms. Creator of <strong>BlushBook</strong>, a live commercial web-to-print SaaS with 30+ physical print orders fulfilled across Nepal, and <strong>DevGuard AI</strong>, an autonomous LLM-powered security code-review agent.
+    Full-Stack Software Engineer with hands-on experience architecting and shipping production React, Node.js, and PostgreSQL web platforms. Creator of <strong>BlushBook</strong> (commercial web-to-print SaaS with 30+ physical print orders fulfilled across Nepal), <strong>DevGuard AI</strong> (autonomous AST & LLM-powered security code-review agent), and <strong>TenderMero</strong> (centralized procurement intelligence and tender aggregation platform).
   </p>
 
   <p>
-    Strong foundations in deterministic static analysis (ESLint API / AST), complex client-side canvas state (Konva.js / Zustand), high-DPI client-side print pipelines (jsPDF 300 DPI), and resilient REST API design.
+    Strong foundations in deterministic static analysis (ESLint API / AST), asynchronous AI ingestion pipelines, complex client-side canvas state (Konva.js / Zustand), high-DPI client-side print pipelines (jsPDF 300 DPI), and relational database indexing (PostgreSQL tsvector / GIN).
   </p>
 
   <p>
@@ -77,6 +77,19 @@ A live production web-to-print platform enabling customers across Nepal to desig
 * **Backend & RBAC:** Built REST APIs with role-based access control (Admin/User), PostgreSQL data management, and Cloudinary media pipelines.
 * **Tech Stack:** React · Node.js · Express · PostgreSQL · Konva.js · Zustand · Cloudinary · jsPDF  
 👉 [getblushbook.com](https://getblushbook.com)
+
+---
+
+### 🏛️ TenderMero: Centralized Procurement & Tender Intelligence Platform
+An institutional-grade tender aggregation platform for Nepal, collecting, standardizing, and indexing public procurement notices from PPMO and e-GP portals into a searchable full-stack marketplace.
+
+* **AI Ingestion Pipeline:** Engineered an asynchronous crawler using Firecrawl and Claude AI schema extraction, transforming heterogeneous public notices into typed JSON records with automated deadline tracking.
+* **PostgreSQL GIN Full-Text Search:** Implemented database-level full-text search via PostgreSQL `tsvector` and GIN indexing with automated triggers, paired with SHA-256 cryptographic deduplication and exponential backoff retry safeguards.
+* **Transactional Integrity:** Designed a relational PostgreSQL schema deployed on Neon with `node-pg-migrate` migrations and ACID transaction rollbacks for multi-record ingestion.
+* **Modern Server-State Caching:** Built a responsive dashboard using React 18 and **TanStack Query v5** for intelligent caching, background revalidation, instant sector filtering, and personal watchlist tracking.
+* **Production Security:** Configured hybrid authentication (JWT + rotating `httpOnly` refresh cookies with cross-site `SameSite=None`), rate limiting, and role-based access control (Admin/Bidder).
+* **Tech Stack:** React 18 · Node.js · Express · PostgreSQL · TanStack Query · Firecrawl · Claude AI · Neon · Vite  
+👉 [Live Demo](https://tender-mero.vercel.app/) · [GitHub Repository](https://github.com/surajshah20/TenderMero)
 
 ---
 
@@ -184,6 +197,7 @@ Full-stack academic capstone project featuring a custom content management syste
 
 * ✅ Shipped **BlushBook** to live production (30+ physical photobook orders delivered across Nepal)
 * ✅ Architected & shipped **DevGuard AI** (Autonomous AST + Gemini LLM security code review agent)
+* ✅ Architected & shipped **TenderMero** (Centralized procurement intelligence platform with Firecrawl + Claude AI)
 * 🔲 Secure a full-time **Full-Stack / Junior Software Engineering** role
 * 🔲 Deep dive into Automated E2E Testing (Playwright) & advanced CI/CD pipelines
 * 🔲 Advanced PostgreSQL query optimization, connection pooling & distributed systems
