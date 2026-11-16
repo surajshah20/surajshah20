@@ -17,23 +17,15 @@
 
 <img src="assets/t-projects.svg" width="100%"/>
 
-<table>
-<tr>
-<td width="50%"><a href="https://getblushbook.com"><img src="assets/card-blushbook.svg"/></a></td>
-<td width="50%"><a href="https://devguardai-gqng.onrender.com"><img src="assets/card-devguard.svg"/></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://tender-mero.vercel.app/"><img src="assets/card-tendermero.svg"/></a></td>
-<td width="50%"><a href="https://explorehimalaya.vercel.app"><img src="assets/card-explorehimalaya.svg"/></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/surajshah20/primetrade-backend"><img src="assets/card-primetrade.svg"/></a></td>
-<td width="50%"><a href="https://github.com/surajshah20/ai-solutions"><img src="assets/card-aisolutions.svg"/></a></td>
-</tr>
-<tr>
-<td colspan="2" align="center"><a href="https://finance-dashboardui.netlify.app/"><img src="assets/card-ledger.svg" width="50%"/></a></td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://getblushbook.com"><img src="assets/card-blushbook.svg" width="49%"/></a>
+  <a href="https://devguardai-gqng.onrender.com"><img src="assets/card-devguard.svg" width="49%"/></a>
+  <a href="https://tender-mero.vercel.app/"><img src="assets/card-tendermero.svg" width="49%"/></a>
+  <a href="https://explorehimalaya.vercel.app"><img src="assets/card-explorehimalaya.svg" width="49%"/></a>
+  <a href="https://github.com/surajshah20/primetrade-backend"><img src="assets/card-primetrade.svg" width="49%"/></a>
+  <a href="https://github.com/surajshah20/ai-solutions"><img src="assets/card-aisolutions.svg" width="49%"/></a>
+  <a href="https://finance-dashboardui.netlify.app/"><img src="assets/card-ledger.svg" width="49%"/></a>
+</p>
 
 <img src="assets/divider.svg" width="100%"/>
 

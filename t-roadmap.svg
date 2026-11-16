@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="100%">
+<style>text{font-family:'Segoe UI',Arial Black,Impact,sans-serif;font-weight:900;font-size:34px;letter-spacing:6px}
+.t{animation:sl 4s ease-in-out infinite}@keyframes sl{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}}</style>
+<defs><linearGradient id="t" x1="0" x2="1"><stop offset="0" stop-color="#ffd166"/><stop offset="1" stop-color="#ff2bd6"/></linearGradient></defs>
+<text class="t" x="20" y="48" fill="url(#t)">// ROADMAP.exe</text>
+<rect x="0" y="12" width="6" height="42" fill="#ffd166"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></rect>
+</svg>
