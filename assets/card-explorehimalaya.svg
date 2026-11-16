@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 252" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 276" width="560" height="276">
 <defs>
  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0d24"/><stop offset="1" stop-color="#050510"/></linearGradient>
  <filter id="gl"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
@@ -9,17 +9,17 @@
  @keyframes run{to{stroke-dashoffset:-1290}}
  .dot{animation:p 1.6s ease-in-out infinite}@keyframes p{50%{opacity:.2}}
  .ttl{font-family:'Segoe UI',Arial Black,Impact,sans-serif;font-weight:900;font-size:30px;letter-spacing:3px}
- .sc{animation:s 4s linear infinite}@keyframes s{from{transform:translateY(0)}to{transform:translateY(252px)}}
+ .sc{animation:s 4s linear infinite}@keyframes s{from{transform:translateY(0)}to{transform:translateY(276px)}}
 </style>
-<clipPath id="cl"><rect x="2" y="2" width="556" height="248" rx="16"/></clipPath>
-<rect x="2" y="2" width="556" height="248" rx="16" fill="url(#bg)" stroke="#ffd166" stroke-opacity=".25"/>
+<clipPath id="cl"><rect x="2" y="2" width="556" height="272" rx="16"/></clipPath>
+<rect x="2" y="2" width="556" height="272" rx="16" fill="url(#bg)" stroke="#ffd166" stroke-opacity=".25"/>
 <g clip-path="url(#cl)"><rect class="sc" width="560" height="2" fill="#ffd166" opacity=".18"/></g>
-<rect class="bd" x="2" y="2" width="556" height="248" rx="16" fill="none" stroke="#ffd166" stroke-width="3" filter="url(#gl)"/>
+<rect class="bd" x="2" y="2" width="556" height="272" rx="16" fill="none" stroke="#ffd166" stroke-width="3" filter="url(#gl)"/>
 <circle class="dot" cx="32" cy="34" r="5" fill="#ffd166"/>
 <text x="46" y="39" font-size="13" fill="#ffd166" letter-spacing="2">TREKKING BOOKINGS</text>
 <text class="ttl" x="30" y="82" fill="#fff" filter="url(#gl)">EXPLOREHIMALAYA</text>
 <text x="30" y="104" font-size="14" fill="#8e8eb5">Booking platform for Nepal treks</text>
 <text x="30" y="128" font-size="14" fill="#cfd0ff"><tspan fill="#ffd166">▸ </tspan>Destination + itinerary pages</text><text x="30" y="152" font-size="14" fill="#cfd0ff"><tspan fill="#ffd166">▸ </tspan>Multi-tier package booking</text><text x="30" y="176" font-size="14" fill="#cfd0ff"><tspan fill="#ffd166">▸ </tspan>REST API on PostgreSQL</text>
-<line x1="30" y1="208" x2="530" y2="208" stroke="#ffd166" stroke-opacity=".25" stroke-dasharray="3 6"/>
-<text x="30" y="234" font-size="13" fill="#ffd166">React · Node · Express · PostgreSQL</text>
+<line x1="30" y1="232" x2="530" y2="232" stroke="#ffd166" stroke-opacity=".25" stroke-dasharray="3 6"/>
+<text x="30" y="258" font-size="13" fill="#ffd166">React · Node · Express · PostgreSQL</text>
 </svg>
