@@ -1,220 +1,78 @@
-<img align="center" alt="Banner" src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif"/>
-
-<h1 align="left">
-  <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="28" />
-  Hi, I'm <strong>Suraj Kumar Sah</strong>
-</h1>
-
-<h3>🚀 Full-Stack Software Engineer | React · Node.js · PostgreSQL · TanStack Query · AI | Nepal 🇳🇵</h3>
-
-<div align="left">
-  <img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" />
-
-  <p>
-    <strong>BSc (Hons) Computer Systems Engineering</strong> graduate from <strong>ISMT College</strong> (Affiliated with the <strong>University of Sunderland, UK</strong>) with final-year results published and immediate full-time availability for junior software engineering roles.
-  </p>
-
-  <p>
-    Full-Stack Software Engineer with hands-on experience architecting and shipping production React, Node.js, and PostgreSQL web platforms. Creator of <strong>BlushBook</strong> (commercial web-to-print SaaS with 30+ physical print orders fulfilled across Nepal), <strong>DevGuard AI</strong> (autonomous AST & LLM-powered security code-review agent), and <strong>TenderMero</strong> (centralized procurement intelligence and tender aggregation platform).
-  </p>
-
-  <p>
-    Strong foundations in deterministic static analysis (ESLint API / AST), asynchronous AI ingestion pipelines, complex client-side canvas state (Konva.js / Zustand), high-DPI client-side print pipelines (jsPDF 300 DPI), and relational database indexing (PostgreSQL tsvector / GIN).
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/🌍_Kathmandu,_Nepal-1e1e2e?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/💼_Available_for_Full--Time_Roles-1e1e2e?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/🚀_Shipping_Production_SaaS-1e1e2e?style=for-the-badge" />
-  </p>
-
-  <h3>🌐 Connect With Me</h3>
-
-  <p align="left">
-    <a href="https://www.linkedin.com/in/surajshahcs">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-    </a>
-    <a href="https://github.com/surajshah20">
-      <img src="https://img.shields.io/badge/GitHub-1A1A1A?style=for-the-badge&logo=github&logoColor=white" />
-    </a>
-    <a href="mailto:suraj27227@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-    </a>
-    <a href="https://portfolio-ebon-six-74.vercel.app/">
-      <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-    </a>
-  </p>
-
-  <img src="https://komarev.com/ghpvc/?username=surajshah20&style=flat-square&color=blue" alt="Profile Views"/>
-</div>
-
-<br clear="all" />
-
----
-
-# 🚀 Featured Projects & Engineering Highlights
-
-### 🛡️ DevGuard AI: Autonomous Code Review & Security Analysis Agent
-A full-stack security review agent combining deterministic AST static analysis with Google Gemini LLMs to detect vulnerabilities, explain root causes, and propose automated git patch fixes.
-
-* **Hybrid Analysis Engine:** Combined deterministic AST static analysis with Google Gemini LLMs to uncover security vulnerabilities, evaluate root causes, and suggest actionable remediation.
-* **In-Memory GitHub Inspection:** Built an in-memory repository scanner over the GitHub REST API bounding file size/counts, redacting credentials (PATs, AWS keys, secret tokens), and mitigating prompt injection through strict isolation.
-* **OWASP & Static Rules:** Built a custom vulnerability detector covering OWASP Top 10 and CWEs (command injection, SQLi, eval, path traversal, weak crypto) alongside an in-memory ESLint engine with zero disk writes.
-* **Automated Patch Delivery:** Generates unified git diff patches (`.patch`) enabling instant application via `git apply`.
-* **CI & Automated Tests:** Dark-theme dashboard with severity distribution bars, filtering, and markdown reports, backed by **44 automated tests** and a GitHub Actions CI workflow.
-* **Tech Stack:** Node.js · Express · React · Vite · Google Gemini API · ESLint API · Zod · Octokit  
-👉 [Live Demo](https://devguardai-gqng.onrender.com)
-
----
-
-### 📚 BlushBook: Commercial Web-to-Print Photobook SaaS
-A live production web-to-print platform enabling customers across Nepal to design, customize, and order physical photobooks, fulfilling **30+ custom print orders**.
-
-* **Canvas Architecture:** Architected an interactive HTML5 Konva.js canvas engine with real-time element transformations, photo pan/zoom cropping geometry, and dynamic snap-alignment guides.
-* **300 DPI Print Pipeline:** Built an in-browser PDF compilation pipeline using **jsPDF** that generates 300 DPI production-ready PDFs with automated bleed margins and dynamic spine-width calculations.
-* **State & Draft Recovery:** Implemented **Zustand** state management with multi-step undo/redo history snapshots and automated draft recovery to prevent data loss in long design sessions.
-* **Cold-Start Elimination:** Optimized initial template loading from **~15s to near-instant** by resolving PostgreSQL cold starts through in-memory route caching and pre-bundled static snapshots.
-* **Backend & RBAC:** Built REST APIs with role-based access control (Admin/User), PostgreSQL data management, and Cloudinary media pipelines.
-* **Tech Stack:** React · Node.js · Express · PostgreSQL · Konva.js · Zustand · Cloudinary · jsPDF  
-👉 [getblushbook.com](https://getblushbook.com)
-
----
-
-### 🏛️ TenderMero: Centralized Procurement & Tender Intelligence Platform
-An institutional-grade tender aggregation platform for Nepal, collecting, standardizing, and indexing public procurement notices from PPMO and e-GP portals into a searchable full-stack marketplace.
-
-* **AI Ingestion Pipeline:** Engineered an asynchronous crawler using Firecrawl and Claude AI schema extraction, transforming heterogeneous public notices into typed JSON records with automated deadline tracking.
-* **PostgreSQL GIN Full-Text Search:** Implemented database-level full-text search via PostgreSQL `tsvector` and GIN indexing with automated triggers, paired with SHA-256 cryptographic deduplication and exponential backoff retry safeguards.
-* **Transactional Integrity:** Designed a relational PostgreSQL schema deployed on Neon with `node-pg-migrate` migrations and ACID transaction rollbacks for multi-record ingestion.
-* **Modern Server-State Caching:** Built a responsive dashboard using React 18 and **TanStack Query v5** for intelligent caching, background revalidation, instant sector filtering, and personal watchlist tracking.
-* **Production Security:** Configured hybrid authentication (JWT + rotating `httpOnly` refresh cookies with cross-site `SameSite=None`), rate limiting, and role-based access control (Admin/Bidder).
-* **Tech Stack:** React 18 · Node.js · Express · PostgreSQL · TanStack Query · Firecrawl · Claude AI · Neon · Vite  
-👉 [Live Demo](https://tender-mero.vercel.app/) · [GitHub Repository](https://github.com/surajshah20/TenderMero)
-
----
-
-### 💰 Ledger: Finance & Expense Analytics Dashboard
-A responsive personal finance dashboard featuring balance analytics, transaction CRUD, simulated role-based access, and light/dark themes.
-
-* **Reactive State Engine:** Engineered a lightweight reactive state store in vanilla JS with localStorage, keeping UI and data in sync without a third-party framework.
-* **Data Visualization:** Integrated Chart.js to visualize cash-flow dynamics, spending distribution, and real-time balance trends.
-* **Tech Stack:** Vanilla JavaScript (ES6+) · HTML5 · CSS3 · Chart.js  
-👉 [Live Demo](https://finance-dashboardui.netlify.app/) · [GitHub Repository](https://github.com/surajshah20/finance-dashboard)
-
----
-
-### 🏔️ ExploreHimalaya: Trekking Booking Platform
-End-to-end trekking booking application with destination pages, interactive booking workflows, and payment integration for multi-tier packages.
-
-* **Booking Workflows:** Destination browsing, itinerary selection, and multi-tier package reservation workflows.
-* **REST Architecture:** RESTful endpoints handling package details, user inquiries, and booking transactions backed by PostgreSQL.
-* **Tech Stack:** React · Node.js · Express · PostgreSQL · REST APIs  
-👉 [Live Demo](https://explorehimalaya.vercel.app) · [GitHub Repository](https://github.com/surajshah20/explorehimalaya)
-
----
-
-### 💹 PrimeTrade: Full-Stack Trading Platform
-Trading platform backend and React dashboard with JWT authentication, role-based access control, and protected PostgreSQL-backed routes.
-
-* **Authentication & RBAC:** Secure token signing, bcrypt password encryption, and middleware guards safeguarding trader and admin operations.
-* **Transactional Reliability:** Protected RESTful endpoints backed by PostgreSQL with transactional integrity.
-* **Tech Stack:** React · Node.js · Express · PostgreSQL · JWT  
-👉 [GitHub Repository](https://github.com/surajshah20/primetrade-backend)
-
----
-
-### 🤖 AI-Solutions: AI Startup Platform & CMS (Capstone)
-Full-stack academic capstone project featuring a custom content management system, bcrypt-secured admin dashboard, and an integrated AI assistant.
-
-* **Admin CMS:** Secure CMS with full CRUD capabilities, bcrypt password encryption, and session authentication.
-* **Rigorous Verification:** Validated system reliability and edge-case resilience through **58 documented black-box test cases**.
-* **Tech Stack:** Node.js · Express · PostgreSQL · EJS · bcrypt  
-👉 [GitHub Repository](https://github.com/surajshah20/ai-solutions)
-
----
-
-# 🛠️ Tech Stack & Arsenal
-
 <p align="center">
-<table>
-<tr>
-<td width="50%" align="center">
-
-### 💻 Languages & Frontend
-<img src="https://skillicons.dev/icons?i=js,ts,react,vite,html,css,tailwind" />
-
-</td>
-<td width="50%" align="center">
-
-### ⚙️ Backend & APIs
-<img src="https://skillicons.dev/icons?i=nodejs,express,nextjs" />
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-
-### 🗄️ Databases & Cloud
-<img src="https://skillicons.dev/icons?i=postgresql,mongodb,vercel" />
-
-</td>
-<td width="50%" align="center">
-
-### 🧰 Testing, DevOps & Tools
-<img src="https://skillicons.dev/icons?i=githubactions,git,github,postman,figma" />
-
-</td>
-</tr>
-</table>
+  <img src="assets/hero.svg" alt="Suraj Kumar Sah — Full-Stack Software Engineer" width="100%"/>
 </p>
 
----
+<p align="center">
+  <a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=800&color=00FF9C&center=true&vCenter=true&width=800&lines=React+%C2%B7+Node.js+%C2%B7+PostgreSQL+%C2%B7+AI;BSc+(Hons)+%E2%80%94+ISMT+%C3%97+University+of+Sunderland;Building+from+Kathmandu+%F0%9F%87%B3%F0%9F%87%B5;Let's+build+something+insane+%F0%9F%9A%80" alt="typing"/></a>
+</p>
 
-# 📊 GitHub Stats
+<p align="center">
+  <a href="https://www.linkedin.com/in/surajshahcs"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/surajshah20"><img src="https://img.shields.io/badge/GitHub-1A1A1A?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="mailto:suraj27227@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://portfolio-ebon-six-74.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+</p>
 
-<div align="center">
+<img src="assets/divider.svg" width="100%"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=surajshah20&show_icons=true&theme=github_dark&hide_border=true"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=surajshah20&layout=compact&theme=github_dark&hide_border=true"/>
+<img src="assets/t-projects.svg" width="100%"/>
 
-<br/>
+<table>
+<tr>
+<td width="50%"><a href="https://getblushbook.com"><img src="assets/card-blushbook.svg"/></a></td>
+<td width="50%"><a href="https://devguardai-gqng.onrender.com"><img src="assets/card-devguard.svg"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://tender-mero.vercel.app/"><img src="assets/card-tendermero.svg"/></a></td>
+<td width="50%"><a href="https://explorehimalaya.vercel.app"><img src="assets/card-explorehimalaya.svg"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/surajshah20/primetrade-backend"><img src="assets/card-primetrade.svg"/></a></td>
+<td width="50%"><a href="https://github.com/surajshah20/ai-solutions"><img src="assets/card-aisolutions.svg"/></a></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><a href="https://finance-dashboardui.netlify.app/"><img src="assets/card-ledger.svg" width="50%"/></a></td>
+</tr>
+</table>
 
-<img src="https://streak-stats.demolab.com?user=surajshah20&theme=dark&hide_border=true"/>
+<img src="assets/divider.svg" width="100%"/>
 
-</div>
+<img src="assets/t-stack.svg" width="100%"/>
 
----
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,vite,html,css,tailwind,nodejs,express,nextjs,postgresql,prisma,mongodb,vercel,githubactions,git,github,postman,figma&perline=10" />
+</p>
 
-# 🏆 GitHub Achievements
+<img src="assets/divider.svg" width="100%"/>
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=surajshah20&theme=darkhub&no-frame=true&margin-w=15"/>
-</div>
+<img src="assets/t-roadmap.svg" width="100%"/>
 
----
+```diff
++ [DONE] BlushBook live in production — 30+ physical photobook orders delivered
++ [DONE] DevGuard AI — AST + Gemini LLM security agent
++ [DONE] TenderMero — Firecrawl + Claude AI procurement platform
+! [NOW]  Playwright E2E testing & CI/CD pipelines
+! [NOW]  PostgreSQL tuning, indexing & connection pooling
+- [NEXT] Land a Full-Stack / Frontend / QA Engineering role  ← you could be the commit
+```
 
-# 🎯 2026 Goals & Milestones
+<img src="assets/divider.svg" width="100%"/>
 
-* ✅ Shipped **BlushBook** to live production (30+ physical photobook orders delivered across Nepal)
-* ✅ Architected & shipped **DevGuard AI** (Autonomous AST + Gemini LLM security code review agent)
-* ✅ Architected & shipped **TenderMero** (Centralized procurement intelligence platform with Firecrawl + Claude AI)
-* 🔲 Secure a full-time **Full-Stack / Junior Software Engineering** role
-* 🔲 Deep dive into Automated E2E Testing (Playwright) & advanced CI/CD pipelines
-* 🔲 Advanced PostgreSQL query optimization, connection pooling & distributed systems
+<img src="assets/t-stats.svg" width="100%"/>
 
----
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=surajshah20&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=surajshah20&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=surajshah20&theme=tokyonight&hide_border=true&background=00000000"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=surajshah20&theme=onedark&no-frame=true&margin-w=15"/>
+</p>
 
-# 📖 Currently Exploring
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=surajshah20&style=for-the-badge&color=00ff9c&label=VISITORS" alt="views"/>
+</p>
 
-* Automated End-to-End Testing & Regression Suites (Playwright)
-* Deterministic Static Analysis & AST Transformations
-* Enterprise Backend Architecture & Domain-Driven Design
-* PostgreSQL Performance Tuning, Indexing & Connection Pooling
-
----
-
-<div align="center">
-
-### ⭐ Clean Architecture · Production Reliability · Building from Kathmandu 🇳🇵
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff9c,50:302b63,100:0f0c29&height=130&section=footer&text=Clean%20Architecture%20%C2%B7%20Production%20Reliability&fontSize=22&fontColor=ffffff&fontAlignY=70" width="100%"/>
