@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 372" width="580" height="372"><style>text{font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}.float{animation:fl 6s ease-in-out infinite}@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.glow{animation:gl 5s ease-in-out infinite}@keyframes gl{0%,100%{opacity:.55}50%{opacity:.95}}</style>
+<defs><radialGradient id="o" cx="0" cy="0" r="1" gradientTransform="translate(290 20) scale(380 200)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fb923c" stop-opacity=".25"/><stop offset="1" stop-color="#fb923c" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="578" height="370" rx="20" fill="#0b1020" stroke="#1e2a47" stroke-width="2"/>
+<rect x="1" y="1" width="578" height="370" rx="20" fill="url(#o)" class="glow"/>
+<g transform="translate(44 24) scale(1.0)"><g class="float">
+<rect width="492" height="224" rx="14" fill="#0a0f20" stroke="#2a3664" stroke-width="1.2"/>
+<rect width="492" height="28" rx="14" fill="#141c38"/><rect y="14" width="492" height="14" fill="#141c38"/>
+<circle cx="18" cy="14" r="4.5" fill="#f87171"/><circle cx="34" cy="14" r="4.5" fill="#fbbf24"/><circle cx="50" cy="14" r="4.5" fill="#4ade80"/>
+<rect x="150" y="6" width="192" height="16" rx="8" fill="#0d1226"/>
+<g transform="translate(0 28)"><clipPath id="wc"><rect width="492" height="196" rx="0"/></clipPath><g clip-path="url(#wc)"><rect width="492" height="196" fill="#0e1428"/>
+<rect x="12" y="12" width="104" height="172" rx="10" fill="#141c38"/>
+<rect x="22" y="26" width="70" height="14" rx="6" fill="#222c52" fill-opacity="1"/><rect x="22" y="54" width="84" height="14" rx="6" fill="#fb923c" fill-opacity="0.3"/><rect x="22" y="82" width="70" height="14" rx="6" fill="#222c52" fill-opacity="1"/><rect x="22" y="110" width="84" height="14" rx="6" fill="#222c52" fill-opacity="1"/><rect x="22" y="138" width="70" height="14" rx="6" fill="#222c52" fill-opacity="1"/>
+<rect x="128" y="12" width="352" height="172" rx="10" fill="#10172e"/>
+<rect x="144" y="26" width="170" height="30" rx="12" fill="#1c2547"/><rect x="154" y="36" width="120" height="7" rx="3" fill="#3b4778"/><rect x="154" y="46" width="80" height="5" rx="2" fill="#2e3862"/>
+<rect x="268" y="66" width="198" height="40" rx="12" fill="#fb923c"/><rect x="280" y="77" width="150" height="7" rx="3" fill="#fff" opacity=".9"/><rect x="280" y="90" width="110" height="6" rx="3" fill="#fff" opacity=".6"/>
+<rect x="144" y="116" width="200" height="30" rx="12" fill="#1c2547"/><rect x="154" y="126" width="150" height="7" rx="3" fill="#3b4778"/>
+<rect x="144" y="156" width="322" height="20" rx="10" fill="#161e3c" stroke="#26305a"/><circle cx="454" cy="166" r="6" fill="#fb923c"/></g></g>
+<rect x="0" y="0" width="492" height="224" rx="14" fill="none" stroke="#2a3664" stroke-width="1.2"/>
+</g></g>
+<text x="44" y="288" font-size="26" fill="#f1f5ff" style="font-weight:800;letter-spacing:-.5px">AI-Solutions</text>
+<rect x="256" y="268" width="163" height="22" rx="11" fill="#fb923c" fill-opacity=".14" stroke="#fb923c" stroke-opacity=".5"/>
+<text x="338" y="283" text-anchor="middle" font-size="10.5" fill="#fb923c" style="font-weight:700;letter-spacing:1px">CAPSTONE · 58 TESTS</text>
+<text x="44" y="314" font-size="14" fill="#98a3c0">AI startup site with secure admin CMS and assistant.</text>
+<rect x="44" y="328" width="70" height="24" rx="13" fill="#fb923c" fill-opacity=".12" stroke="#fb923c" stroke-opacity=".45"/><text x="79" y="344.2" text-anchor="middle" font-size="11.5" fill="#fb923c" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;font-weight:600">Node.js</text><rect x="122" y="328" width="70" height="24" rx="13" fill="#fb923c" fill-opacity=".12" stroke="#fb923c" stroke-opacity=".45"/><text x="157" y="344.2" text-anchor="middle" font-size="11.5" fill="#fb923c" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;font-weight:600">Express</text><rect x="201" y="328" width="43" height="24" rx="13" fill="#fb923c" fill-opacity=".12" stroke="#fb923c" stroke-opacity=".45"/><text x="222" y="344.2" text-anchor="middle" font-size="11.5" fill="#fb923c" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;font-weight:600">EJS</text><rect x="251" y="328" width="91" height="24" rx="13" fill="#fb923c" fill-opacity=".12" stroke="#fb923c" stroke-opacity=".45"/><text x="297" y="344.2" text-anchor="middle" font-size="11.5" fill="#fb923c" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;font-weight:600">PostgreSQL</text>
+<text x="536" y="344" text-anchor="end" font-size="13" fill="#fb923c" style="font-weight:700">Source ↗</text>
+</svg>

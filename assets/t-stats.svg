@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 84" width="1200" height="84">
+<defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+<rect x="1" y="1" width="1198" height="82" rx="16" fill="#0b1020" stroke="#1e2a47" stroke-width="2"/>
+<rect x="26" y="22" width="5" height="40" rx="2.5" fill="url(#a)"/>
+<text x="48" y="36" font-size="12.5" fill="#22d3ee" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;font-weight:700;letter-spacing:3px">05 — GITHUB ACTIVITY</text>
+<text x="48" y="64" font-size="26" fill="#f1f5ff" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;font-weight:800;letter-spacing:-.5px">Open-source footprint</text></svg>

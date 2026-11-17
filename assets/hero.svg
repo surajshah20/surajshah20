@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440"><style>text{font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}.float{animation:fl 6s ease-in-out infinite}@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.glow{animation:gl 5s ease-in-out infinite}@keyframes gl{0%,100%{opacity:.55}50%{opacity:.95}}</style>
+<defs>
+<linearGradient id="nm" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#a5b4fc"/></linearGradient>
+<linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+<radialGradient id="o1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#6366f1" stop-opacity=".55"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+<radialGradient id="o2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#22d3ee" stop-opacity=".35"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#6b7aa8" opacity=".28"/></pattern>
+<clipPath id="cp"><rect width="1200" height="440" rx="24"/></clipPath>
+<style>.o1{animation:d1 14s ease-in-out infinite}.o2{animation:d2 18s ease-in-out infinite}
+@keyframes d1{0%,100%{transform:translate(0,0)}50%{transform:translate(80px,40px)}}@keyframes d2{0%,100%{transform:translate(0,0)}50%{transform:translate(-90px,-30px)}}
+.cur{animation:bk 1s steps(1) infinite}@keyframes bk{50%{opacity:0}}
+.float2{animation:fl 7s ease-in-out infinite;animation-delay:-2s}</style>
+</defs>
+<g clip-path="url(#cp)">
+<rect width="1200" height="440" fill="#070b18"/><rect width="1200" height="440" fill="url(#dots)"/>
+<ellipse class="o1" cx="300" cy="120" rx="420" ry="300" fill="url(#o1)"/><ellipse class="o2" cx="980" cy="360" rx="420" ry="280" fill="url(#o2)"/>
+<rect x="64" y="64" width="330" height="32" rx="16" fill="#10b981" fill-opacity=".12" stroke="#10b981" stroke-opacity=".5"/>
+<circle cx="84" cy="80" r="5" fill="#34d399"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="98" y="85" font-size="13.5" fill="#6ee7b7" style="font-weight:600">Open to full-time roles · Kathmandu, Nepal</text>
+<text x="64" y="176" font-size="68" fill="url(#nm)" style="font-weight:800;letter-spacing:-2px">Suraj Kumar Sah</text>
+<text x="64" y="224" font-size="28" fill="url(#ac)" style="font-weight:700">Full-Stack Software Engineer<tspan class="cur" fill="#22d3ee"> |</tspan></text>
+<text x="64" y="272" font-size="18" fill="#98a3c0">I design and build production web platforms — from interactive</text>
+<text x="64" y="298" font-size="18" fill="#98a3c0">canvas editors to AI-powered data pipelines. React · Node · PostgreSQL.</text>
+<g font-size="13" style="font-weight:600">
+<rect x="64" y="338" width="150" height="34" rx="17" fill="#6366f1" fill-opacity=".16" stroke="#6366f1" stroke-opacity=".6"/><text x="139" y="360" text-anchor="middle" fill="#a5b4fc">BSc (Hons) CSE</text>
+<rect x="226" y="338" width="176" height="34" rx="17" fill="#22d3ee" fill-opacity=".12" stroke="#22d3ee" stroke-opacity=".5"/><text x="314" y="360" text-anchor="middle" fill="#67e8f9">Univ. of Sunderland</text>
+<rect x="414" y="338" width="128" height="34" rx="17" fill="#f472b6" fill-opacity=".12" stroke="#f472b6" stroke-opacity=".5"/><text x="478" y="360" text-anchor="middle" fill="#f9a8d4">ISMT College</text></g>
+<!-- design card -->
+<g transform="translate(700 56)"><g class="float2">
+<rect width="230" height="170" rx="18" fill="#0f1530" stroke="#2a3664" stroke-width="1.2"/>
+<text x="22" y="82" font-size="64" fill="#f1f5ff" style="font-weight:800">Aa</text>
+<text x="22" y="112" font-size="12" fill="#6b7aa8" style="letter-spacing:1px">TYPE · COLOR · LAYOUT</text>
+<circle cx="34" cy="144" r="12" fill="#6366f1"/><circle cx="68" cy="144" r="12" fill="#22d3ee"/><circle cx="102" cy="144" r="12" fill="#f472b6"/><circle cx="136" cy="144" r="12" fill="#34d399"/><circle cx="170" cy="144" r="12" fill="#fbbf24"/>
+<rect x="150" y="26" width="58" height="58" rx="14" fill="url(#ac)"/><circle cx="179" cy="55" r="14" fill="#0f1530" fill-opacity=".35"/>
+</g></g>
+<!-- code card -->
+<g transform="translate(790 218)"><g class="float">
+<rect width="330" height="198" rx="18" fill="#0a0f20" stroke="#2a3664" stroke-width="1.2"/>
+<rect width="330" height="30" rx="18" fill="#141c38"/><rect y="16" width="330" height="14" fill="#141c38"/>
+<circle cx="18" cy="15" r="4.5" fill="#f87171"/><circle cx="34" cy="15" r="4.5" fill="#fbbf24"/><circle cx="50" cy="15" r="4.5" fill="#4ade80"/>
+<text x="165" y="19" font-size="11" fill="#6b7aa8" text-anchor="middle" style="font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace">suraj.ts</text>
+<g transform="translate(0 6)"><text x="22" y="58" font-size="14" xml:space="preserve" style="font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace"><tspan fill="#c084fc">const </tspan><tspan fill="#7dd3fc">suraj </tspan><tspan fill="#e2e8f0">= {</tspan></text><text x="22" y="82" font-size="14" xml:space="preserve" style="font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace"><tspan fill="#7dd3fc">  role</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#86efac">&quot;Full-Stack Engineer&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text><text x="22" y="106" font-size="14" xml:space="preserve" style="font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace"><tspan fill="#7dd3fc">  stack</tspan><tspan fill="#e2e8f0">: [</tspan><tspan fill="#86efac">&quot;React&quot;</tspan><tspan fill="#e2e8f0">, </tspan><tspan fill="#86efac">&quot;Node&quot;</tspan><tspan fill="#e2e8f0">, </tspan><tspan fill="#86efac">&quot;SQL&quot;</tspan><tspan fill="#e2e8f0">],</tspan></text><text x="22" y="130" font-size="14" xml:space="preserve" style="font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace"><tspan fill="#7dd3fc">  shipped</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#86efac">&quot;30+ print orders&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text><text x="22" y="154" font-size="14" xml:space="preserve" style="font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace"><tspan fill="#7dd3fc">  openToWork</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fbbf24">true</tspan><tspan fill="#e2e8f0">,</tspan></text><text x="22" y="178" font-size="14" xml:space="preserve" style="font-family:'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,'Courier New',monospace"><tspan fill="#e2e8f0">};</tspan></text></g>
+</g></g>
+<rect x="1" y="1" width="1198" height="438" rx="23" fill="none" stroke="#1e2a47" stroke-width="2"/>
+</g></svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 372" width="580" height="372"><style>text{font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}.float{animation:fl 6s ease-in-out infinite}@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.glow{animation:gl 5s ease-in-out infinite}@keyframes gl{0%,100%{opacity:.55}50%{opacity:.95}}</style>
+<defs><radialGradient id="o" cx="0" cy="0" r="1" gradientTransform="translate(290 20) scale(380 200)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fbbf24" stop-opacity=".25"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="578" height="370" rx="20" fill="#0b1020" stroke="#1e2a47" stroke-width="2"/>
+<rect x="1" y="1" width="578" height="370" rx="20" fill="url(#o)" class="glow"/>
+<g transform="translate(44 24) scale(1.0)"><g class="float">
+<rect width="492" height="224" rx="14" fill="#0a0f20" stroke="#2a3664" stroke-width="1.2"/>
+<rect width="492" height="28" rx="14" fill="#141c38"/><rect y="14" width="492" height="14" fill="#141c38"/>
+<circle cx="18" cy="14" r="4.5" fill="#f87171"/><circle cx="34" cy="14" r="4.5" fill="#fbbf24"/><circle cx="50" cy="14" r="4.5" fill="#4ade80"/>
+<rect x="150" y="6" width="192" height="16" rx="8" fill="#0d1226"/>
+<g transform="translate(0 28)"><clipPath id="wc"><rect width="492" height="196" rx="0"/></clipPath><g clip-path="url(#wc)"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e1b4b"/><stop offset=".6" stop-color="#9d4a6f"/><stop offset="1" stop-color="#f59e0b"/></linearGradient></defs>
+<rect width="492" height="196" fill="url(#sky)"/><circle cx="110" cy="96" r="26" fill="#fde68a" opacity=".95"/>
+<polygon points="0,196 0,128 70,92 120,130 190,70 260,140 330,98 400,150 492,110 492,196" fill="#3b2a6b"/>
+<polygon points="0,196 0,150 80,120 150,160 230,112 300,164 380,128 492,168 492,196" fill="#241a4a"/>
+<polygon points="190,70 176,92 190,86 200,96" fill="#f8fafc"/>
+<rect x="300" y="26" width="170" height="146" rx="12" fill="#0f1530" fill-opacity=".92" stroke="#2d3a6b"/>
+<rect x="314" y="40" width="96" height="9" rx="4" fill="#e2e8f0"/><rect x="314" y="56" width="70" height="6" rx="3" fill="#64748b"/>
+<rect x="314" y="74" width="142" height="20" rx="8" fill="#1a2242" fill-opacity="1" stroke="none"/><rect x="322" y="80" width="56" height="7" rx="3" fill="#cbd5e1"/><rect x="420" y="80" width="28" height="7" rx="3" fill="#fbbf24"/><rect x="314" y="100" width="142" height="20" rx="8" fill="#fbbf24" fill-opacity="0.25" stroke="#fbbf24"/><rect x="322" y="106" width="56" height="7" rx="3" fill="#cbd5e1"/><rect x="420" y="106" width="28" height="7" rx="3" fill="#fbbf24"/><rect x="314" y="126" width="142" height="20" rx="8" fill="#1a2242" fill-opacity="1" stroke="none"/><rect x="322" y="132" width="56" height="7" rx="3" fill="#cbd5e1"/><rect x="420" y="132" width="28" height="7" rx="3" fill="#fbbf24"/>
+<rect x="314" y="154" width="142" height="14" rx="7" fill="#fbbf24"/></g></g>
+<rect x="0" y="0" width="492" height="224" rx="14" fill="none" stroke="#2a3664" stroke-width="1.2"/>
+</g></g>
+<text x="44" y="288" font-size="26" fill="#f1f5ff" style="font-weight:800;letter-spacing:-.5px">ExploreHimalaya</text>
+<rect x="306" y="268" width="86" height="22" rx="11" fill="#fbbf24" fill-opacity=".14" stroke="#fbbf24" stroke-opacity=".5"/>
+<text x="348" y="283" text-anchor="middle" font-size="10.5" fill="#fbbf24" style="font-weight:700;letter-spacing:1px">BOOKINGS</text>
+<text x="44" y="314" font-size="14" fill="#98a3c0">Nepal trek booking platform with multi-tier packages.</text>
+<rect x="44" y="328" width="56" height="24" rx="13" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".45"/><text x="72" y="344.2" text-anchor="middle" font-size="11.5" fill="#fbbf24" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;font-weight:600">React</text><rect x="108" y="328" width="70" height="24" rx="13" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".45"/><text x="144" y="344.2" text-anchor="middle" font-size="11.5" fill="#fbbf24" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;font-weight:600">Node.js</text><rect x="187" y="328" width="91" height="24" rx="13" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".45"/><text x="232" y="344.2" text-anchor="middle" font-size="11.5" fill="#fbbf24" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;font-weight:600">PostgreSQL</text>
+<text x="536" y="344" text-anchor="end" font-size="13" fill="#fbbf24" style="font-weight:700">Live demo ↗</text>
+</svg>
